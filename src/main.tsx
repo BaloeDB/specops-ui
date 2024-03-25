@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <Routes>
       <Route path="/" element={<SignupScreen type="login" />} />
       <Route
-        path="/signup/:requestId"
+        path="#/signup/:requestId"
         element={<SignupScreen type="signup" />}
       />
       <Route path="/login" element={<SignupScreen type="login" />} />
