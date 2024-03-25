@@ -16,6 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<SignupScreen type="login" />} />
+      <Route path="/test" element={<h1>Test</h1>} />
       <Route
         path="#/signup/:requestId"
         element={<SignupScreen type="signup" />}
