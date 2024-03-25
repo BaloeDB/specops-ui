@@ -9,6 +9,7 @@ const Content = (props: { type: "signup" | "login" }) => {
   const [type, setType] = useState<"signup" | "login">();
 
   useEffect(() => {
+    console.log(props.type);
     setType(props.type);
   }, [setType, props.type]);
 
